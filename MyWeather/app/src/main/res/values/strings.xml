@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="weather">Ясно, без осадков</string>
+    <string name="temperature">Температура +20</string>
+    <string name="wind">Ветер северо-восточный 4 м/с</string>
+    <string name="pressure">Давление 755 мм ртутного столба</string>
+    <string name="humidity">Влажность 73%</string>
+</resources>
