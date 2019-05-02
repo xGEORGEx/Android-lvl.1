@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Apr 26 20:57:36 SAMT 2019
+0.baseType=DIRECTORY
+0.base=E\:\\AndroidPrj\\MyWeather\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.path=classes.dex
+0.set=DEX
+count=1
