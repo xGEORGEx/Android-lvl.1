@@ -18,6 +18,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="app.geekbrains.myweather.HistoryActivity" />
         <activity android:name="app.geekbrains.myweather.WeatherActivity" />
         <activity android:name="app.geekbrains.myweather.MainActivity" >
             <intent-filter>

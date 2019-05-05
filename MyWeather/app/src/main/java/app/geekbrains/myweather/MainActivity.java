@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 import static android.content.res.Configuration.ORIENTATION_LANDSCAPE;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
 
     private static final String TAG = "myLogs";
 
@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         pressure = findViewById(R.id.checkPressure);
         humidity = findViewById(R.id.checkHumidity);
         Button getWeather = findViewById(R.id.buttonWeather);
+        Button btnHistory = findViewById(R.id.btnHistory);
 
         //Если устройство перевернули в альбомную ориентацию, активити создается в первый раз,
         //и введено название города то передаем в фрагмент сохраненные параметры
@@ -74,6 +75,19 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+        btnHistory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (city.getText().toString().isEmpty()){
+                    Toast.makeText(getApplicationContext(), R.string.warrning_message,
+                            Toast.LENGTH_SHORT).show();
+                } else {
+                    Intent intent = new Intent(v.getContext(), HistoryActivity.class);
+                    startActivity(intent);
+                }
+            }
+        });
     }
 
 
@@ -100,4 +114,6 @@ public class MainActivity extends AppCompatActivity {
             weatherFragment.setWeather(city, wind, pressure, humidity);
         }
     }
+
+
 }

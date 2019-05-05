@@ -1,4 +1,4 @@
-#Wed May 01 19:56:09 SAMT 2019
+#Sun May 05 22:44:10 SAMT 2019
 base.0=E\:\\AndroidPrj\\MyWeather\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 path.0=classes.dex
 renamed.0=classes.dex

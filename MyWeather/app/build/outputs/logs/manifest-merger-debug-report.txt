@@ -1,11 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-23:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fb927742475f4fd9035410d6de4af569\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fd09840f63ddacb96d7be8870c29a7df\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\b5f19a656ebe473a852a7265d1990e25\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\9d7ea9871797c10bca6ccac6da25cfe1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\357edf97fbc678cacf0c223707c35648\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\c20ef88520194169b4aaa0c9ac4b0421\AndroidManifest.xml:17:1-22:12
@@ -27,29 +28,29 @@ MERGED from [com.android.support:documentfile:28.0.0] C:\Users\George\.gradle\ca
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\1624b4b9ad5078c902e1f5e44689aba1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fa4c37b269506f3e7233e5bedbecbc3e\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\7317d52767c4d67f7152d51c39626088\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\c3324c7b94b29ff6595e590bf3342026\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fe98357dff47493492a8fd111ab3fc99\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\3c8ebeb06c75e006aa78175cc415820a\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\7b00f95868bacc0503babd65917d02ce\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\c3324c7b94b29ff6595e590bf3342026\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-23:12
 	package
 		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
 		INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
-		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-22:12
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-23:12
 		INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
-		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-22:12
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-23:12
 		INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:5:5-20:19
+ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:5:5-21:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fd09840f63ddacb96d7be8870c29a7df\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fd09840f63ddacb96d7be8870c29a7df\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\f4aa4d39bd2952e973bcfa4ed0f9eef7\AndroidManifest.xml:22:5-94
@@ -70,24 +71,28 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\George\.gr
 		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:11:9-40
-activity#app.geekbrains.myweather.WeatherActivity
+activity#app.geekbrains.myweather.HistoryActivity
 ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:12:9-62
 	android:name
 		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:12:19-50
+activity#app.geekbrains.myweather.WeatherActivity
+ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:13:9-53
+	android:name
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:13:19-50
 activity#app.geekbrains.myweather.MainActivity
-ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:13:9-19:20
+ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:13:19-47
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:14:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:14:13-18:29
+ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:18:27-74
 uses-sdk
 INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
@@ -96,6 +101,8 @@ MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\George\.gradle\ca
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fb927742475f4fd9035410d6de4af569\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fd09840f63ddacb96d7be8870c29a7df\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fd09840f63ddacb96d7be8870c29a7df\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\b5f19a656ebe473a852a7265d1990e25\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\b5f19a656ebe473a852a7265d1990e25\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\9d7ea9871797c10bca6ccac6da25cfe1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\9d7ea9871797c10bca6ccac6da25cfe1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\357edf97fbc678cacf0c223707c35648\AndroidManifest.xml:20:5-44
@@ -138,14 +145,14 @@ MERGED from [com.android.support:print:28.0.0] C:\Users\George\.gradle\caches\tr
 MERGED from [com.android.support:print:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fa4c37b269506f3e7233e5bedbecbc3e\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\7317d52767c4d67f7152d51c39626088\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\7317d52767c4d67f7152d51c39626088\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\c3324c7b94b29ff6595e590bf3342026\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\c3324c7b94b29ff6595e590bf3342026\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fe98357dff47493492a8fd111ab3fc99\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fe98357dff47493492a8fd111ab3fc99\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\3c8ebeb06c75e006aa78175cc415820a\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\3c8ebeb06c75e006aa78175cc415820a\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\7b00f95868bacc0503babd65917d02ce\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\7b00f95868bacc0503babd65917d02ce\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\c3324c7b94b29ff6595e590bf3342026\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\c3324c7b94b29ff6595e590bf3342026\AndroidManifest.xml:20:5-44
 INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
 INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion

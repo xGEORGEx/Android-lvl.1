@@ -9,6 +9,7 @@
     <string name="warrning_message">Enter the name of the city</string>
 
     <string name="button_text">Find out the weather</string>
+    <string name="button_history">Show history</string>
     <string name="checkbox1_text">Wind</string>
     <string name="checkbox2_text">Pressure</string>
     <string name="checkbox3_text">Humidity</string>

@@ -5,13 +5,15 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
-public class WeatherFragment extends Fragment {
+public class WeatherFragment extends Fragment{
 
     private TextView cityView;
     private TextView temperatureView;
@@ -24,7 +26,7 @@ public class WeatherFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View layout = inflater.inflate(R.layout.weather_fragment, container, false);
+        final View layout = inflater.inflate(R.layout.weather_fragment, container, false);
 
         cityView = layout.findViewById(R.id.textCity);
         temperatureView = layout.findViewById(R.id.textTemperature);
@@ -61,5 +63,6 @@ public class WeatherFragment extends Fragment {
             humidityView.setVisibility(View.GONE);
         }
     }
+
 }
 
