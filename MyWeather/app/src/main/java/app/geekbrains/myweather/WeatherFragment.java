@@ -15,6 +15,7 @@ import android.widget.TextView;
 
 public class WeatherFragment extends Fragment{
 
+
     private TextView cityView;
     private TextView temperatureView;
     private TextView weatherView;
@@ -23,11 +24,16 @@ public class WeatherFragment extends Fragment{
     private TextView humidityView;
 
 
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+    }
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         final View layout = inflater.inflate(R.layout.weather_fragment, container, false);
-
         cityView = layout.findViewById(R.id.textCity);
         temperatureView = layout.findViewById(R.id.textTemperature);
         weatherView = layout.findViewById(R.id.textWeather);
@@ -35,8 +41,18 @@ public class WeatherFragment extends Fragment{
         pressureView = layout.findViewById(R.id.textPressure);
         humidityView = layout.findViewById(R.id.textHumidity);
 
+        Button historyBtn = layout.findViewById(R.id.btnHistory);
+        historyBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentNavigation fragmentNavigation = (FragmentNavigation) getActivity();
+                fragmentNavigation.startFragment();
+            }
+        });
+
         return layout;
     }
+
 
 
     //В этом методе устанавливаем текст элементам фрагмента, в зависимости от передаваемых параметров

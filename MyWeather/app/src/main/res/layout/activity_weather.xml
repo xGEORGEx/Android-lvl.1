@@ -4,10 +4,4 @@
     android:layout_height="match_parent"
     android:id="@+id/fragment_container">
 
-    <fragment
-        android:name="app.geekbrains.myweather.WeatherFragment"
-        android:id="@+id/weather_fragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
 </FrameLayout>

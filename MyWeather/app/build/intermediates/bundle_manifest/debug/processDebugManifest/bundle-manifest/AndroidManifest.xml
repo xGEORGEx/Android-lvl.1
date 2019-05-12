@@ -18,9 +18,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="app.geekbrains.myweather.HistoryActivity" />
-        <activity android:name="app.geekbrains.myweather.WeatherActivity" />
-        <activity android:name="app.geekbrains.myweather.MainActivity" >
+        <activity
+            android:name="app.geekbrains.myweather.WeatherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.geekbrains.myweather.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

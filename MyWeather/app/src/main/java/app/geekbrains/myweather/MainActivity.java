@@ -5,28 +5,31 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.os.Bundle;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.List;
 
 import static android.content.res.Configuration.ORIENTATION_LANDSCAPE;
 
 public class MainActivity extends AppCompatActivity{
 
-    private static final String TAG = "myLogs";
+    private List<City> citySource;
 
     private static final String CITY = "City";
     private static final String WIND = "Wind";
     private static final String PRESSURE = "Pressure";
     private static final String HUMIDITY = "Humidity";
-    private EditText city;
-    private CheckBox wind;
-    private CheckBox pressure;
-    private CheckBox humidity;
 
 
     @Override
@@ -34,86 +37,39 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        city = findViewById(R.id.editCity);
-        wind = findViewById(R.id.checkWind);
-        pressure = findViewById(R.id.checkPressure);
-        humidity = findViewById(R.id.checkHumidity);
-        Button getWeather = findViewById(R.id.buttonWeather);
-        Button btnHistory = findViewById(R.id.btnHistory);
+        RecyclerView recyclerView = findViewById(R.id.recycler_city);
+        // установим аниматор по умолчанию
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
 
-        //Если устройство перевернули в альбомную ориентацию, активити создается в первый раз,
-        //и введено название города то передаем в фрагмент сохраненные параметры
-        if (getResources().getConfiguration().orientation == ORIENTATION_LANDSCAPE
-               && savedInstanceState != null && savedInstanceState.containsKey(CITY)){
-           createFragment(savedInstanceState.getString(CITY), savedInstanceState.getBoolean(WIND),
-                   savedInstanceState.getBoolean(PRESSURE),savedInstanceState.getBoolean(HUMIDITY));
-        }
+        // эта установка служит для повышения производительности системы.
+        recyclerView.setHasFixedSize(true);
 
+        // создаем источник данных
+        final CitySourseBulder builder = new CitySourseBulder(getResources());
+        citySource = builder.build();
 
-        getWeather.setOnClickListener(new View.OnClickListener() {
+        // будем работать со встроенным менеджером
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(layoutManager);
 
+        final CityAdapter cityAdapter = new CityAdapter(citySource);
+        recyclerView.setAdapter(cityAdapter);
+
+        cityAdapter.setOnItemClickListener(new CityAdapter.OnItemClickListener() {
             @Override
-            public void onClick(View v) {
-                //Если поле пустое выводим сообщение о необходимости ввести название города
-                if (city.getText().toString().isEmpty()){
-                    Toast.makeText(getApplicationContext(), R.string.warrning_message,
-                            Toast.LENGTH_SHORT).show();
-                } else {
-                    //Если устройство перевернули в альбомную ориентацию, то передаем параметы в фрагмет
-                    if (getResources().getConfiguration().orientation == ORIENTATION_LANDSCAPE){
-                        createFragment(city.getText().toString(), wind.isChecked(),
-                                pressure.isChecked(), humidity.isChecked());
-                    //Иначе вызываем вторую активити и передаем параметры ей
-                    } else {
-                        Intent intent = new Intent(v.getContext(), WeatherActivity.class);
-                        intent.putExtra(CITY, city.getText().toString());
-                        intent.putExtra(WIND, wind.isChecked());
-                        intent.putExtra(PRESSURE, pressure.isChecked());
-                        intent.putExtra(HUMIDITY, humidity.isChecked());
+            public void onItemClick(View view, int position) {
+                Intent intent = new Intent(view.getContext(), WeatherActivity.class);
+                        intent.putExtra(CITY, citySource.get(position).getCity());
+                        intent.putExtra(WIND, citySource.get(position).isWind());
+                        intent.putExtra(PRESSURE, citySource.get(position).isPressure());
+                        intent.putExtra(HUMIDITY, citySource.get(position).isHumidity());
                         startActivity(intent);
-                    }
-                }
-            }
-        });
-
-        btnHistory.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (city.getText().toString().isEmpty()){
-                    Toast.makeText(getApplicationContext(), R.string.warrning_message,
-                            Toast.LENGTH_SHORT).show();
-                } else {
-                    Intent intent = new Intent(v.getContext(), HistoryActivity.class);
-                    startActivity(intent);
-                }
             }
         });
     }
 
 
-    @Override
-    protected void onSaveInstanceState(Bundle savedInstanceState) {
-        //Если название города введено то сохраняем текущие параметры
-        if (!city.getText().toString().isEmpty()){
-            savedInstanceState.putString(CITY, city.getText().toString());
-            savedInstanceState.putBoolean(WIND, wind.isChecked());
-            savedInstanceState.putBoolean(PRESSURE, pressure.isChecked());
-            savedInstanceState.putBoolean(HUMIDITY, humidity.isChecked());
-            Log.d(TAG, "1");
-            super.onSaveInstanceState(savedInstanceState);
-        }
-    }
 
-    //В этом методе с помощью FragmentManager вызываем метод врагмента setWeather
-    //и передаем в него параметры
-    private void createFragment (String city, boolean wind, boolean pressure, boolean humidity){
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        WeatherFragment weatherFragment = (WeatherFragment)
-                fragmentManager.findFragmentById(R.id.weather_fragment);
-        if (weatherFragment != null) {
-            weatherFragment.setWeather(city, wind, pressure, humidity);
-        }
-    }
 
 
 }

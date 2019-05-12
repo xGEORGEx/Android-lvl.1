@@ -4,6 +4,25 @@
             "outputFile": "E:\\AndroidPrj\\MyWeather\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\George\\.gradle\\caches\\transforms-2\\files-2.1\\5b7bb599ee13f47c35d90ba400932633\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "431"
+                    }
+                },
+                {
                     "source": "C:\\Users\\George\\.gradle\\caches\\transforms-2\\files-2.1\\fb927742475f4fd9035410d6de4af569\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",

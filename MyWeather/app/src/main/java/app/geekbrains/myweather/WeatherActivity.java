@@ -7,12 +7,15 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 
 import static android.content.res.Configuration.ORIENTATION_LANDSCAPE;
 
-public class WeatherActivity extends AppCompatActivity {
+public class WeatherActivity extends AppCompatActivity implements FragmentNavigation {
 
-    private static final String TAG = "myLogs";
+    private WeatherFragment weatherFragment;
+    private HistoryFragment historyFragment;
 
 
     @Override
@@ -20,30 +23,40 @@ public class WeatherActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
 
-        // Если устройство перевернули в альбомную ориентацию, то закрываем активити
-        if (getResources().getConfiguration().orientation == ORIENTATION_LANDSCAPE){
-            finish();
-            return;
-        }
+        weatherFragment = new WeatherFragment();
+        historyFragment = new HistoryFragment();
 
 
-        //с помощью FragmentManager вызываем метод врагмента setWeather
-        //и передаем в него параметры от главной активити
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        WeatherFragment weatherFragment = (WeatherFragment)
-                fragmentManager.findFragmentById(R.id.weather_fragment);
-        Intent intent = getIntent();
-        Log.d(TAG, intent.getStringExtra("City"));
-        if (weatherFragment != null){
-            Log.d(TAG, "1");
-            weatherFragment.setWeather(intent.getStringExtra("City"),
-                                       intent.getBooleanExtra("Wind", false),
-                                       intent.getBooleanExtra("Pressure", false),
-                                       intent.getBooleanExtra("Humidity", false));
-            Log.d(TAG, "2");
-        }
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.add(R.id.fragment_container, weatherFragment);
+        fragmentTransaction.commit();
+
 
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Intent intent = getIntent();
+        if (weatherFragment != null){
+            weatherFragment.setWeather(intent.getStringExtra("City"),
+                    intent.getBooleanExtra("Wind", false),
+                    intent.getBooleanExtra("Pressure", false),
+                    intent.getBooleanExtra("Humidity", false));
+        }
+    }
 
+
+    @Override
+    public void startFragment() {
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+
+        // добавить фрагмент
+        fragmentTransaction.replace(R.id.fragment_container, historyFragment);
+
+        // закрыть транзакцию
+        fragmentTransaction.commit();
+
+
+    }
 }
