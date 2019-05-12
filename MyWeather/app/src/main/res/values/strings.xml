@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="weather">Clear, no precipitation</string>
+    <string name="temperature">Temperature +20</string>
+    <string name="wind">Wind north-east 4 m/s</string>
+    <string name="pressure">The pressure of 755 mm Hg</string>
+    <string name="humidity">Humidity 73%</string>
+
+    <string name="warrning_message">Enter the name of the city</string>
+
+    <string name="button_text">Find out the weather</string>
+    <string name="button_history">Show history</string>
+    <string name="checkbox1_text">Wind</string>
+    <string name="checkbox2_text">Pressure</string>
+    <string name="checkbox3_text">Humidity</string>
+    <string name="text_view_city_text">Сity name:</string>
+    <string name="text_view_add_text">Advanced setting</string>
+</resources>

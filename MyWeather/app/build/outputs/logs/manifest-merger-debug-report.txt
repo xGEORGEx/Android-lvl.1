@@ -1,0 +1,180 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\5b7bb599ee13f47c35d90ba400932633\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fb927742475f4fd9035410d6de4af569\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fd09840f63ddacb96d7be8870c29a7df\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\70e9d69c9ced7f4d62d1ee976a200a57\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\b5f19a656ebe473a852a7265d1990e25\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\9d7ea9871797c10bca6ccac6da25cfe1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\357edf97fbc678cacf0c223707c35648\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\c20ef88520194169b4aaa0c9ac4b0421\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\d071cb8f4b30f5625cc023e7aa48c328\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\72b10badff20b74ddc20207fb97a8c0a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\aed0d58a2ff43d820bcbd31f6e3a6876\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\b44e72790a4f6bd09e8aef92569f3859\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\0914cedb33a1e7bb970439226b8386a9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\a0b6d854239b1ede2119a4547ee3db3b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\6163abffad5841a577ae2415717ef008\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\16128f300485952646a6f418f2431964\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\f4be72edff6b499180b8dc52e9ed1f6d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\9c9247c09dd469eb0322ca70b2520fbe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\af5bdb8ccab8740a962d835b96fca713\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\f4aa4d39bd2952e973bcfa4ed0f9eef7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\ffef84ca0cc93619bd98e7fefe6e2e77\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\c6563306a7cc0569f6e42cc719ed99ee\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\092c4bacaf747448dbfb3c18aab7ed52\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\e3408555cf44adb61d88c5d1e39a6f7d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\1624b4b9ad5078c902e1f5e44689aba1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fa4c37b269506f3e7233e5bedbecbc3e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\7317d52767c4d67f7152d51c39626088\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\c3324c7b94b29ff6595e590bf3342026\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fe98357dff47493492a8fd111ab3fc99\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\3c8ebeb06c75e006aa78175cc415820a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\7b00f95868bacc0503babd65917d02ce\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:5:5-26:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\5b7bb599ee13f47c35d90ba400932633\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\5b7bb599ee13f47c35d90ba400932633\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fd09840f63ddacb96d7be8870c29a7df\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fd09840f63ddacb96d7be8870c29a7df\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\f4aa4d39bd2952e973bcfa4ed0f9eef7\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\f4aa4d39bd2952e973bcfa4ed0f9eef7\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\ffef84ca0cc93619bd98e7fefe6e2e77\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\ffef84ca0cc93619bd98e7fefe6e2e77\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\f4aa4d39bd2952e973bcfa4ed0f9eef7\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:11:9-40
+activity#app.geekbrains.myweather.WeatherActivity
+ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:12:9-14:51
+	android:screenOrientation
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:14:13-49
+	android:name
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:13:13-44
+activity#app.geekbrains.myweather.MainActivity
+ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:15:9-25:20
+	android:screenOrientation
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:17:13-49
+	android:label
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:18:13-45
+	android:theme
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:19:13-56
+	android:name
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:16:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml:23:27-74
+uses-sdk
+INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
+INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\5b7bb599ee13f47c35d90ba400932633\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\5b7bb599ee13f47c35d90ba400932633\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fb927742475f4fd9035410d6de4af569\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fb927742475f4fd9035410d6de4af569\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fd09840f63ddacb96d7be8870c29a7df\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fd09840f63ddacb96d7be8870c29a7df\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\70e9d69c9ced7f4d62d1ee976a200a57\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\70e9d69c9ced7f4d62d1ee976a200a57\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\b5f19a656ebe473a852a7265d1990e25\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\b5f19a656ebe473a852a7265d1990e25\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\9d7ea9871797c10bca6ccac6da25cfe1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\9d7ea9871797c10bca6ccac6da25cfe1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\357edf97fbc678cacf0c223707c35648\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\357edf97fbc678cacf0c223707c35648\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\c20ef88520194169b4aaa0c9ac4b0421\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\c20ef88520194169b4aaa0c9ac4b0421\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\d071cb8f4b30f5625cc023e7aa48c328\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\d071cb8f4b30f5625cc023e7aa48c328\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\72b10badff20b74ddc20207fb97a8c0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\72b10badff20b74ddc20207fb97a8c0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\aed0d58a2ff43d820bcbd31f6e3a6876\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\aed0d58a2ff43d820bcbd31f6e3a6876\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\b44e72790a4f6bd09e8aef92569f3859\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\b44e72790a4f6bd09e8aef92569f3859\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\0914cedb33a1e7bb970439226b8386a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\0914cedb33a1e7bb970439226b8386a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\a0b6d854239b1ede2119a4547ee3db3b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\a0b6d854239b1ede2119a4547ee3db3b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\6163abffad5841a577ae2415717ef008\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\6163abffad5841a577ae2415717ef008\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\16128f300485952646a6f418f2431964\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\16128f300485952646a6f418f2431964\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\f4be72edff6b499180b8dc52e9ed1f6d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\f4be72edff6b499180b8dc52e9ed1f6d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\9c9247c09dd469eb0322ca70b2520fbe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\9c9247c09dd469eb0322ca70b2520fbe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\af5bdb8ccab8740a962d835b96fca713\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\af5bdb8ccab8740a962d835b96fca713\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\f4aa4d39bd2952e973bcfa4ed0f9eef7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\f4aa4d39bd2952e973bcfa4ed0f9eef7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\ffef84ca0cc93619bd98e7fefe6e2e77\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\ffef84ca0cc93619bd98e7fefe6e2e77\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\c6563306a7cc0569f6e42cc719ed99ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\c6563306a7cc0569f6e42cc719ed99ee\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\092c4bacaf747448dbfb3c18aab7ed52\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\092c4bacaf747448dbfb3c18aab7ed52\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\e3408555cf44adb61d88c5d1e39a6f7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\e3408555cf44adb61d88c5d1e39a6f7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\1624b4b9ad5078c902e1f5e44689aba1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\1624b4b9ad5078c902e1f5e44689aba1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fa4c37b269506f3e7233e5bedbecbc3e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fa4c37b269506f3e7233e5bedbecbc3e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\7317d52767c4d67f7152d51c39626088\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\7317d52767c4d67f7152d51c39626088\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\c3324c7b94b29ff6595e590bf3342026\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\George\.gradle\caches\transforms-2\files-2.1\c3324c7b94b29ff6595e590bf3342026\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fe98357dff47493492a8fd111ab3fc99\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\fe98357dff47493492a8fd111ab3fc99\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\3c8ebeb06c75e006aa78175cc415820a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\3c8ebeb06c75e006aa78175cc415820a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\7b00f95868bacc0503babd65917d02ce\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\George\.gradle\caches\transforms-2\files-2.1\7b00f95868bacc0503babd65917d02ce\AndroidManifest.xml:20:5-44
+INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
+INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidPrj\MyWeather\app\src\main\AndroidManifest.xml

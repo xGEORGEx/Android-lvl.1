@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="weather">Ясно, без осадков</string>
+    <string name="temperature">Температура +20</string>
+    <string name="wind">Ветер северо-восточный 4 м/с</string>
+    <string name="pressure">Давление 755 мм ртутного столба</string>
+    <string name="humidity">Влажность 73%</string>
+
+    <string name="warrning_message">Введите название города</string>
+
+    <string name="button_text">Узнать погоду</string>
+    <string name="button_history">Показать историю</string>
+    <string name="checkbox1_text">Ветер</string>
+    <string name="checkbox2_text">Давление</string>
+    <string name="checkbox3_text">Влажность</string>
+    <string name="text_view_city_text">Название города:</string>
+    <string name="text_view_add_text">Дополнительные параметры</string>
+</resources>
